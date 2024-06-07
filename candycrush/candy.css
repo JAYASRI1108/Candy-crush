@@ -1,0 +1,23 @@
+body{
+    background: url(/photo.jpg);
+    background-size: cover;
+    text-align: left;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#board{
+    width: 450px;
+    height: 450px;
+    background-color: rgb(236, 138, 176);
+    border: 5px solid grey;
+    border-radius: 10px;
+    margin: 25px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img{
+    height: 50px;
+    width: 50px;
+}
